@@ -1,0 +1,1 @@
+A real-time application that detects whether eyes are open or closed using MediaPipe’s Face Mesh. It tracks facial landmarks to determine eye status accurately and efficiently. Ideal for blink detection, drowsiness monitoring, and eye-tracking applications, this lightweight solution runs smoothly on CPU with minimal latency. 
