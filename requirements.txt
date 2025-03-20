@@ -6,4 +6,8 @@ matplotlib
 streamlit
 playsound
 opencv-python
-opencv-python-headless
+# opencv-python-headless
+# packages.txt 
+libgl1-mesa-glx 
+libglib2.0-0 
+# test.py
