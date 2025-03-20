@@ -5,3 +5,5 @@ tensorflow
 matplotlib
 streamlit
 playsound
+opencv-python
+opencv-python-headless
