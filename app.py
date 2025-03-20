@@ -148,7 +148,7 @@ while True:
             if closed_duration >= alert_duration and not eye_state_detector.alert_played:
                 # Play audio alert
                 st.warning("Eyes closed for more than 2 seconds! Playing alert...")
-                playsound(r"/home/prashant/Documents/work-related/projects/test/yolov8/Eye-Blink-Detection-using-MediaPipe-and-OpenCV-master/emergency-siren-alert-single-epic-stock-media-1-00-01.mp3")
+                playsound(r"media/emergency-siren-alert-single-epic-stock-media-1-00-01.mp3")
                 eye_state_detector.alert_played = True
     else:
         # Reset the timer and alert flag
