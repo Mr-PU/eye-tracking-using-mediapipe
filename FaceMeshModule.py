@@ -4,7 +4,7 @@ import os
 
 
 class FaceMeshGenerator:
-    def __init__(self, mode=False, num_faces=2, min_detection_con=0.5, min_track_con=0.5):
+    def __init__(self, mode=False, num_faces=2, min_detection_con=0.7, min_track_con=0.5):
         """
         Initialize FaceMesh detector with specified parameters
         """
@@ -37,6 +37,7 @@ class FaceMeshGenerator:
             raise ValueError("Input frame cannot be None")
 
         try:
+            # frame = cv.GaussianBlur(frame, (5, 5), 0)
             frame_rgb = cv.cvtColor(frame, cv.COLOR_BGR2RGB)
             self.results = self.face_mesh.process(frame_rgb)
             landmarks_dict = {}
